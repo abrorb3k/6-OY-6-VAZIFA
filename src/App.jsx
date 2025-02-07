@@ -2,8 +2,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/Home";
-import AddPost from "./pages/addpost"
+import Addpost from "./pages/addpost";
 function App() {
+
   return (
     <Router>
       <div className="navbar">
@@ -17,7 +18,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/create-post" element={<AddPost />} />
+        <Route path="/create-post" element={<Addpost />} />
       </Routes>
     </Router>
   );
