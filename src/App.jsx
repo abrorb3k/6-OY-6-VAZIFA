@@ -2,8 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/Home";
-import CreatePostPage from "./pages/addpost";
-
+import Addpost from "./pages/addpost"
 function App() {
   return (
     <Router>
@@ -18,7 +17,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/create-post" element={<CreatePostPage />} />
+        <Route path="/create-post" element={<Addpost />} />
       </Routes>
     </Router>
   );

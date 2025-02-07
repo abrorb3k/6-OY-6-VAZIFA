@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 
-function CreatePostPage() {
+function Addpost() {
   const [nextId, setNextId] = useState(102);
   const titleRef = useRef();
   const descRef = useRef();
@@ -70,5 +70,5 @@ function CreatePostPage() {
   );
 }
 
-export default CreatePostPage;
+export default Addpost;
 
