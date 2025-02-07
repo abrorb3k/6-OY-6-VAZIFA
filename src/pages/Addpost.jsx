@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 
-function Addpost() {
+function Addpostt() {
   const [nextId, setNextId] = useState(102);
   const titleRef = useRef();
   const descRef = useRef();
@@ -70,5 +70,5 @@ function Addpost() {
   );
 }
 
-export default Addpost;
+export default Addpostt;
 
