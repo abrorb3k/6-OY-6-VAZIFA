@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Link } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/Home";
-import Addpost from "./pages/addpost";
+import Addpost from "./pages/Addpost";
 function App() {
 
   return (
